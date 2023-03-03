@@ -1,0 +1,59 @@
+<html>
+    <body>
+       <form name='Carros' action='' method='post'>
+           <label for="carros">Qual carro comprar ?</label>
+                <select name="carros">
+                    <option value="volvo">Volvo XC90</option>
+                    <option value="saab">Saab 95</option>
+                    <option value="mercedes">Mercedes SLK</option>
+                    <option value="audi">Audi TT</option>
+                </select>
+            <label for="entrada">$ Entrada</label>   
+            <input type="money" value="0" name="entrada"><br>   
+ 
+            <label for="parcelas">Qt parcelas</label>   
+                <select name="parcelas">
+                    <option value="12">12</option>
+                    <option value="24">24</option>
+                </select><br>    
+
+            <label for="total">$ Total</label>   
+            <input type="money" value="0" name="total"><br>   
+            <input type='submit' value='Enviar'>
+        </form>
+    </body>
+</html>
+    
+<?php 
+/*
+ pesquisar: 
+ >formatacao de valores monetarios
+ >como obter a data de hoje em uma variavel
+  Exemplo: $data = <datadehoje>
+ >como acumular dias numa variavel data
+  Exemplo: $data = $data + 30 
+*/
+
+ if ($_POST) 
+ {
+  $saldo = $_POST['total'] - $_POST['entrada'];
+     
+  /* faca aqui as tabelas que pedi */
+     
+     
+ }
+     
+
+?>
+<!-- $DATA = <DATADEHOJE>
+$NROPARC = 24
+LACO $I de 1 a $NROPARC
+$DATAVENC = $DATA + $I * 30 -->
+
+
+<!-- $DATA = <DATADEHOJE>
+$NROPARC = 24
+LACO $I de 1 a $NROPARC
+$DATAVENC = $DATA + ($I-1) * 30
+(...)
+FIM DO LACO -->

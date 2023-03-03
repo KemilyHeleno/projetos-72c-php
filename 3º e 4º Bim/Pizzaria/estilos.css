@@ -1,0 +1,56 @@
+body{
+    margin: 0; 
+    padding: 0;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+}
+
+#menu{
+  
+    list-style:none; border:1px solid #c0c0c0; float:left;
+}
+
+#menu li
+
+    {
+    position:relative; float:left; border-right:1px solid #2254a3; 
+}
+
+#menu li a{
+    color:white; text-decoration:none; padding:5px 10px; display:block;
+
+}
+
+#menu li a:hover{background:#B0E0E6; color:#2254a3; -moz-box-shadow:0 3px 10px 0 #2254a3; -webkit-box-shadow:0 3px 10px 0 #2254a3; text-shadow:0px 0px 5px #fff; }
+
+#menu ul li {
+        background-color:#B0E0E6;
+        float: center;
+        width: 200px;
+        height: 50px;
+        display: inline-block;
+        text-align: center;
+        line-height: 40px;
+        font-size: 20px;
+        }
+
+#menu ul li:hover{
+        background-color: #2254a3;
+        }
+
+#menu li:hover ul, .menu li.over ul{display:block;}
+
+#menu li ul li{border:1px solid #2254a3; display:block; width:150px;}
+
+#Busca-texto{
+        width: 200px; /*Largura do campo*/
+        height: 35px; /*Altura do campo*/
+        float: right; /*Posição do campo*/
+        background-image: url('img/ic_search_white_24dp_1x.png'); /*diretório e imagem do icone*/
+        background-position: left;  /*posição do icone*/
+        background-repeat: no-repeat; /*Não repetir o icone <- COLOCA ISSO PELO AMOR DE ODIN*/
+        background-color: #fff; /*Cor do fundo do campo*/
+        border: 2px solid #000; /*Cor da borda do campo*/
+        border-radius: 4px; /*Curvatura da borda nas "quinas"*/
+        text-indent: 25px; /*Um espaçamento para n atrapalhar a img*/
+    }

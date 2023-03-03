@@ -1,0 +1,25 @@
+<HTML>
+    <meta charset="utf-8">
+	<HEAD>
+		<TITLE> Aula de PHP </TITLE>
+        <STYLE>
+            body{
+                background: linear-gradient(to top right, yellow, blue);
+            }
+        </STYLE>
+	</HEAD>
+	<BODY>
+		<table>
+			<TR><TD>Disciplinas</TD>        <TD> | </TD>         <TD>Notas</TD></TR><BR>
+ 			<TR><TD><B>Inglês</B></TD>      <TD> | </TD>           <TD><I>6,5</I></TD></TR><BR>
+  			<TR><TD><B>Mat. Aplic</B></TD>  <TD> | </TD>               <TD><I>3,7</I></TD></TR><BR>
+    			<TR><TD><B>Redação</B></TD>     <TD> | </TD>            <TD><I>6,8</I></TD></TR><BR>
+     			<TR><TD><B>N.T.S</B></TD>       <TD> | </TD>          <TD><I>6,6</I></TD></TR><BR>
+    			<TR><TD><B>L.A.E.P.</B></TD>    <TD> | </TD>             <TD><I>7,5</I></TD></TR><BR>
+    			<TR><TD> <B>F.P.D.</B></TD>     <TD> | </TD>            <TD><I>6,2</I></TD></TR><BR>
+      			<TR><TD><B>T.P.</B></TD>        <TD> | </TD>         <TD><I>6,3</I></TD></TR><BR>
+   			<TR><TD><B>El. Logica</B><BR></TD>  <TD> | </TD>               <TD><I>6,0</I></TD></TR><BR>
+     			<TR><TD><B>L.I.A.</B></TD>      <TD> | </TD>           <TD><I>6,0</I></TD></TR><BR>
+		</table>
+</body>
+</html>
