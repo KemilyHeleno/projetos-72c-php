@@ -1,0 +1,9 @@
+  /*
+    $varsql = "  SELECT com parametro :param  ";
+    $select = $objbanco->prepare($varsql); 
+    $select->bindParam(':param',$variavel);
+    $select->execute();  
+    $linha = $select->fetch(PDO::FETCH_ASSOC); 
+  */
+  
+  
